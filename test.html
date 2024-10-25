@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>John Doe - Swimmer Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+
+        .profile-container {
+            margin: 30px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-header {
+            text-align: center;
+        }
+
+        .profile-header img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .profile-header h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .profile-header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        .profile-details {
+            margin-top: 20px;
+        }
+
+        .profile-details h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #1e90ff;
+        }
+
+        .profile-details ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .profile-details ul li {
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .profile-details p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .table-container {
+            margin-top: 30px;
+        }
+
+        .table-container table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table-container table, .table-container th, .table-container td {
+            border: 1px solid #ddd;
+        }
+
+        .table-container th, .table-container td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        .table-container th {
+            background-color: #1e90ff;
+            color: white;
+        }
+
+        .table-container tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table-container tr:hover {
+            background-color: #ddd;
+        }
+
+        footer {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+
+        a.back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #1e90ff;
+            font-size: 1.1em;
+        }
+
+        a.back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pinnawala Central College Swimming Squad</h1>
+    </header>
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="testlogo.jpg" alt="John Doe">
+            <h2>Lakira</h2>
+            <h1>2010/08/02</h1>
+            
+        </div>
+
+        <div class="table-container">
+            <h3>Performance Stats</h3>
+            <table>
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Position</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>100m Freestyle</td>
+                    <td>March 2023</td>
+                    <td>1st</td>
+                    <td>50.25s</td>
+                    <td>National Championship</td>
+                </tr>
+                <tr>
+                    <td>200m Freestyle</td>
+                    <td>May 2022</td>
+                    <td>2nd</td>
+                    <td>1:45.89</td>
+                    <td>Regional Games</td>
+                </tr>
+                <tr>
+                    <td>4x100m Freestyle Relay</td>
+                    <td>June 2021</td>
+                    <td>3rd</td>
+                    <td>3:25.67</td>
+                    <td>International Meet</td>
+                </tr>
+                <tr>
+                    <td>50m Freestyle</td>
+                    <td>January 2023</td>
+                    <td>2nd</td>
+                    <td>22.80s</td>
+                    <td>City Open</td>
+                </tr>
+                <tr>
+                    <td>100m Freestyle</td>
+                    <td>February 2022</td>
+                    <td>1st</td>
+                    <td>49.80s</td>
+                    <td>State Championship</td>
+                </tr>
+            </table>
+        </div>
+        
+        <a href="site.html" class="back-link">← Back to Team</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pinnawala Central College Swimming Squad</p>
+    </footer>
+</body>
+</html>
